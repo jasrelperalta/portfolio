@@ -1,13 +1,21 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between middle">    
+    <main>    
       <title>Jasrel Peralta</title>
-      <h1 className="text-4xl font-bold text-center">
-        The name is Jasrel.
-      </h1>
-      <h2 className="text-2xl text-center">
-        I'm a software engineer.
-      </h2>
+      <div className="flex h-screen">
+        <div className="m-auto">
+          <div className="flex flex-col items-center">
+            <div className="text-8xl font-bold">The name is Jasrel.</div>
+          </div>
+          <div className="flex flex-row justify-center text-xl">
+            <Link href="/about" className="m-2 p-4 bg-gray-200 rounded-lg">About</Link>
+            <Link href="/projects" className="m-2 p-4 bg-gray-200 rounded-lg">Projects</Link>
+            <Link href="/contact" className="m-2 p-4 bg-gray-200 rounded-lg">Contact</Link>
+          </div>
+        </div>
+      </div>
     </main>
   )
 }
