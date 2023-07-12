@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link';
-import { Button, Space } from 'antd';
 import { MailFilled, GithubFilled, LinkedinFilled } from '@ant-design/icons';
 
 export default function Contact() {
@@ -17,7 +16,7 @@ export default function Contact() {
                     </Link>
                 </div>
                 <div className="text-2xl">
-                    <Link className="m-3 p-3 bg-gray-200 rounded-lg" href="https://www.linkedin.com/in/jasrel-peralta-1b1b3b1b0/">
+                    <Link className="m-3 p-3 bg-gray-200 rounded-lg" href="https://www.linkedin.com/in/jasrelperalta/">
                         <LinkedinFilled />
                     </Link>
                 </div>
