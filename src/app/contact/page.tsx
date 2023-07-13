@@ -6,27 +6,31 @@ import { MailFilled, GithubFilled, LinkedinFilled } from '@ant-design/icons';
 export default function Contact() {
     return (
     <main>
-        <title>About</title>
-        <div className="flex flex-col justify-center items-center h-screen">
-            <div className="text-8xl font-bold">Contacts</div>
-            <div className="flex flex-row justify-center p-8">
-                <div className="text-2xl">
-                    <Link className="m-3 p-3 bg-gray-200 rounded-lg" href="mailto:jtperalta1@up.edu.ph">
+        <title>Contact</title>
+        <div className="flex h-screen">
+            <div className="m-auto">
+                <div className="flex flex-col items-center">
+                    <div className="page-title">Contacts</div>
+                <div className="flex flex-row justify-center p-8">
+                <div className="page-content">
+                    <Link className="button-link" href="mailto:jtperalta1@up.edu.ph">
                         <MailFilled />
                     </Link>
                 </div>
-                <div className="text-2xl">
-                    <Link className="m-3 p-3 bg-gray-200 rounded-lg" href="https://www.linkedin.com/in/jasrelperalta/">
+                <div className="page-content">
+                    <Link className="button-link" href="https://www.linkedin.com/in/jasrelperalta/">
                         <LinkedinFilled />
                     </Link>
                 </div>
-                <div className="text-2xl">
-                    <Link className="m-3 p-3 bg-gray-200 rounded-lg" href="https://www.github.com/jasrelperalta">
+                <div className="page-content">
+                    <Link className="button-link" href="https://www.github.com/jasrelperalta">
                         <GithubFilled />
                     </Link>
                 </div>
             </div>
-            <Link className="text-xl m-3 p-4 bg-gray-200 rounded-lg" href="/">Return</Link>
+            <Link className="button" href="/">Return</Link>
+            </div>
+            </div>
         </div>
     </main>
     )

@@ -4,13 +4,21 @@ export default function About() {
     return (
     <main>
         <title>About</title>
-        <div className="flex flex-col justify-center items-center h-screen">
-            <div className="text-8xl font-bold">About</div>
-            <div className="text-2xl">I am Jasrel Roby Peralta.</div>
-            <div className="text-2xl">I am a Software Developer.</div>
-            <div className="text-2xl">I am interested in the field of Machine Learning and Image Processing.</div>
-            <div className="text-2xl">I am currently improving my skills in the field of Web Development.</div>
-            <Link className="text-xl m-2 p-2 bg-gray-200 rounded-lg" href="/">Return</Link>
+        <div className="flex h-screen">
+            <div className="m-auto">
+                <div className="flex flex-col items-center text-center">
+                    <div className="page-title">About</div>
+                    <div className="page-content">
+                        <div>
+                            I am a Senior BS Computer Science student at the University of the Philippines Los Baños. <br />
+                            I am interested in the fields of Machine Learning, Image Processing and Cybersecurity. <br />
+                            I have experience in developing different kinds of applications such as web, mobile, and desktop applications. <br />
+                            I have experience with using multiple programming languages, but I consider myself to be adept with C and Python. <br />
+                        </div>
+                    </div>
+                    <Link className="button" href="/">Return</Link>
+                </div>
+            </div>
         </div>
     </main>
     )
