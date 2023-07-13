@@ -7,12 +7,12 @@ export default function Home() {
       <div className="flex h-screen">
         <div className="m-auto">
           <div className="flex flex-col items-center">
-            <div className="text-8xl font-bold">The name is Jasrel.</div>
+            <div className="text-4xl p-4 text-center sm:text-8xl font-bold">The name is Jasrel.</div>
           </div>
-          <div className="flex flex-row justify-center text-xl">
-            <Link href="/about" className="m-2 p-4 bg-gray-200 rounded-lg">About</Link>
-            <Link href="/projects" className="m-2 p-4 bg-gray-200 rounded-lg">Projects</Link>
-            <Link href="/contact" className="m-2 p-4 bg-gray-200 rounded-lg">Contact</Link>
+          <div className="flex flex-col items-center text-sm justify-center sm:flex-row sm:text-xl">
+            <Link href="/about" className="transition ease-in-out duration-250 m-2 p-4 sm:p-8 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white hover:scale-110">About</Link>
+            <Link href="/projects" className="transition ease-in-out duration-250 m-2 p-4 sm:p-8 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white hover:scale-110">Projects</Link>
+            <Link href="/contact" className="transition ease-in-out duration-250 m-2 p-4 sm:p-8 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white hover:scale-110">Contact</Link>
           </div>
         </div>
       </div>
