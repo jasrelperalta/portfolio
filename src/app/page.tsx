@@ -1,7 +1,4 @@
 import Link from 'next/link';
-import { Megrim } from 'next/font/google';
-
-const megrim = Megrim({ subsets:['latin'], display: 'swap', weight: '400' });
 
 export default function Home() {
   return (
@@ -11,7 +8,7 @@ export default function Home() {
         <div className="m-auto group">
           <div className="flex flex-col items-center page-content ">
             <div className="page-title">
-              <div id="home-name" className="group-hover:animate-pulse">
+              <div id="home-name" className="animate-pulse group-hover:scale-150 sm:group-hover:scale-110">
                 Jasrel Peralta
               </div>
             </div>

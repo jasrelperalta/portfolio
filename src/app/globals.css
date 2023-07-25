@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 
-main {
+body {
   @apply bg-zinc-900 text-white;
 }
 
@@ -25,7 +25,7 @@ main {
 }
 
 #home-name:hover {
-  @apply ease-in-out transform duration-500 scale-[1.05] font-normal;
+  @apply ease-in-out transform duration-500 scale-110 sm:scale-[1.2] font-normal;
 }
 
 .page-subtitle {
